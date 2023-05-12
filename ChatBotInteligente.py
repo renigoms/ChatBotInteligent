@@ -55,7 +55,7 @@ print ("Digite 0 para parar a conversa imediatamente")
 
 while op == "sim":
 
-    usuario = input("Digite algo=>")
+    usuario = input("Você: ")
     if usuario == "0":
         op = None
         break
